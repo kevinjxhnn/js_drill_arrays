@@ -1,7 +1,5 @@
 // Function written for `flatten`
 
-const nestedArray = [1, [2], [[3]], [[[4]]]];
-
 function flatten(nestedArray){
 
     let flatArray = [];
@@ -17,5 +15,5 @@ function flatten(nestedArray){
 
     return flatArray;
 }
-console.log(nestedArray)
-console.log(flatten(nestedArray))
+
+module.exports = { flatten }
