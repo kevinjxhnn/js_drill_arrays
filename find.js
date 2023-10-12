@@ -2,7 +2,6 @@
 
 function find(items, cb){
     let flag = false
-    let foundItem = -1;
 
     for(let i = 0; i < items.length; i++){
         flag = cb(items[i])
@@ -14,7 +13,6 @@ function find(items, cb){
 
     return undefined
 
-    
 }
 
 module.exports = { find }
